@@ -3,6 +3,8 @@ An imnodes port for Brutal.ImGui.
 
 **No Association with Original Author or Brutal framework**
 
+![Example](Preview/example.png)
+
 ```csharp
 ImNodes.CreateContext();
 
