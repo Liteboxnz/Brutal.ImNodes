@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <RootNamespace>Brutal.ImNodesAPI</RootNamespace>
+        <PackageId>LiteboxNZ.$(AssemblyName)</PackageId>
+        <Company>LiteboxNZ</Company>
+        <Description>imnodes port for the Brutal framework</Description>
+        <Title>LiteboxNZ.BRUTAL.ImNodes</Title>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>LiteboxNZ</Authors>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/Liteboxnz/Brutal.ImNodes</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\Package\LICENSE.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+      <None Include="..\Package\README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ahwoo.BRUTAL.ImGui" Version="2026.10.3" />
+    </ItemGroup>
+
+</Project>
